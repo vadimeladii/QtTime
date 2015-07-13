@@ -2,6 +2,7 @@
 #define TIMEMAINWINDOW_H
 
 #include <QMainWindow>
+#include <QTimer>
 
 namespace Ui {
 class TimeMainWindow;
@@ -17,6 +18,9 @@ public:
 
 private:
     Ui::TimeMainWindow *ui;
+    QTimer time;
+public slots:
+    void timeFunctie();
 };
 
 #endif // TIMEMAINWINDOW_H
