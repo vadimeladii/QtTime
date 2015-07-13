@@ -293,6 +293,10 @@ void TimeMainWindow::timeFunctie(){
         ui->toolButton_6->setIcon(QIcon(":/0"));
         ui->toolButton_8->setIcon(QIcon(":/0"));
         break;
+    case 0:
+        ui->toolButton_6->setIcon(QIcon(":/0"));
+        ui->toolButton_8->setIcon(QIcon(":/0"));
+        break;
 
 }
 }
