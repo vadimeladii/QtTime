@@ -217,7 +217,7 @@ void TimeMainWindow::timeFunctie(){
         break;
 
 }
-    switch (mmstring.toInt()%10) {
+    switch (hhstring.toInt()%10) {
     case 9:
         ui->toolButton->setIcon(QIcon(":/1"));
         ui->toolButton_3->setIcon(QIcon(":/0"));
@@ -279,36 +279,19 @@ void TimeMainWindow::timeFunctie(){
         ui->toolButton_7->setIcon(QIcon(":/0"));
         break;
     }
-    switch (mmstring.toInt()/10) {
-    case 5:
-        ui->toolButton_11->setIcon(QIcon(":/1"));
-        ui->toolButton_13->setIcon(QIcon(":/0"));
-        ui->toolButton_15->setIcon(QIcon(":/1"));
-        break;
-    case 4:
-        ui->toolButton_11->setIcon(QIcon(":/1"));
-        ui->toolButton_13->setIcon(QIcon(":/0"));
-        ui->toolButton_15->setIcon(QIcon(":/0"));
-        break;
-    case 3:
-        ui->toolButton_11->setIcon(QIcon(":/0"));
-        ui->toolButton_13->setIcon(QIcon(":/1"));
-        ui->toolButton_15->setIcon(QIcon(":/1"));
-        break;
+    switch (hhstring.toInt()/10) {
+
     case 2:
-        ui->toolButton_11->setIcon(QIcon(":/0"));
-        ui->toolButton_13->setIcon(QIcon(":/1"));
-        ui->toolButton_15->setIcon(QIcon(":/0"));
+        ui->toolButton_6->setIcon(QIcon(":/1"));
+        ui->toolButton_8->setIcon(QIcon(":/0"));
         break;
     case 1:
-        ui->toolButton_11->setIcon(QIcon(":/0"));
-        ui->toolButton_13->setIcon(QIcon(":/0"));
-        ui->toolButton_15->setIcon(QIcon(":/1"));
+        ui->toolButton_6->setIcon(QIcon(":/0"));
+        ui->toolButton_8->setIcon(QIcon(":/1"));
         break;
     case 0:
-        ui->toolButton_11->setIcon(QIcon(":/0"));
-        ui->toolButton_13->setIcon(QIcon(":/0"));
-        ui->toolButton_15->setIcon(QIcon(":/0"));
+        ui->toolButton_6->setIcon(QIcon(":/0"));
+        ui->toolButton_8->setIcon(QIcon(":/0"));
         break;
 
 }
