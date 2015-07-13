@@ -227,56 +227,56 @@ void TimeMainWindow::timeFunctie(){
     case 8:
         ui->toolButton->setIcon(QIcon(":/1"));
         ui->toolButton_3->setIcon(QIcon(":/0"));
-        ui->toolButton_14->setIcon(QIcon(":/0"));
-        ui->toolButton_16->setIcon(QIcon(":/0"));
+        ui->toolButton_5->setIcon(QIcon(":/0"));
+        ui->toolButton_7->setIcon(QIcon(":/0"));
         break;
     case 7:
         ui->toolButton->setIcon(QIcon(":/0"));
         ui->toolButton_3->setIcon(QIcon(":/1"));
-        ui->toolButton_14->setIcon(QIcon(":/1"));
-        ui->toolButton_16->setIcon(QIcon(":/1"));
+        ui->toolButton_5->setIcon(QIcon(":/1"));
+        ui->toolButton_7->setIcon(QIcon(":/1"));
         break;
     case 6:
         ui->toolButton->setIcon(QIcon(":/0"));
         ui->toolButton_3->setIcon(QIcon(":/1"));
-        ui->toolButton_14->setIcon(QIcon(":/1"));
-        ui->toolButton_16->setIcon(QIcon(":/0"));
+        ui->toolButton_5->setIcon(QIcon(":/1"));
+        ui->toolButton_7->setIcon(QIcon(":/0"));
         break;
     case 5:
         ui->toolButton->setIcon(QIcon(":/0"));
         ui->toolButton_3->setIcon(QIcon(":/1"));
-        ui->toolButton_14->setIcon(QIcon(":/0"));
-        ui->toolButton_16->setIcon(QIcon(":/1"));
+        ui->toolButton_5->setIcon(QIcon(":/0"));
+        ui->toolButton_7->setIcon(QIcon(":/1"));
         break;
     case 4:
         ui->toolButton->setIcon(QIcon(":/0"));
         ui->toolButton_3->setIcon(QIcon(":/1"));
-        ui->toolButton_14->setIcon(QIcon(":/0"));
-        ui->toolButton_16->setIcon(QIcon(":/0"));
+        ui->toolButton_5->setIcon(QIcon(":/0"));
+        ui->toolButton_7->setIcon(QIcon(":/0"));
         break;
     case 3:
         ui->toolButton->setIcon(QIcon(":/0"));
         ui->toolButton_3->setIcon(QIcon(":/0"));
-        ui->toolButton_14->setIcon(QIcon(":/1"));
-        ui->toolButton_16->setIcon(QIcon(":/1"));
+        ui->toolButton_5->setIcon(QIcon(":/1"));
+        ui->toolButton_7->setIcon(QIcon(":/1"));
         break;
     case 2:
         ui->toolButton->setIcon(QIcon(":/0"));
         ui->toolButton_3->setIcon(QIcon(":/0"));
-        ui->toolButton_14->setIcon(QIcon(":/1"));
-        ui->toolButton_16->setIcon(QIcon(":/0"));
+        ui->toolButton_5->setIcon(QIcon(":/1"));
+        ui->toolButton_7->setIcon(QIcon(":/0"));
         break;
     case 1:
         ui->toolButton->setIcon(QIcon(":/0"));
         ui->toolButton_3->setIcon(QIcon(":/0"));
-        ui->toolButton_14->setIcon(QIcon(":/0"));
-        ui->toolButton_16->setIcon(QIcon(":/1"));
+        ui->toolButton_5->setIcon(QIcon(":/0"));
+        ui->toolButton_7->setIcon(QIcon(":/1"));
         break;
     case 0:
         ui->toolButton->setIcon(QIcon(":/0"));
         ui->toolButton_3->setIcon(QIcon(":/0"));
-        ui->toolButton_14->setIcon(QIcon(":/0"));
-        ui->toolButton_16->setIcon(QIcon(":/0"));
+        ui->toolButton_5->setIcon(QIcon(":/0"));
+        ui->toolButton_7->setIcon(QIcon(":/0"));
         break;
     }
     switch (mmstring.toInt()/10) {
