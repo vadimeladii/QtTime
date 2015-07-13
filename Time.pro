@@ -18,3 +18,6 @@ SOURCES += main.cpp\
 HEADERS  += timemainwindow.h
 
 FORMS    += timemainwindow.ui
+
+RESOURCES += \
+    image.qrc
